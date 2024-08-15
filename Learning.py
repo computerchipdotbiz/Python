@@ -1,3 +1,5 @@
 #Learning Python
-Chip = 'What?'
+Chip = 'What'
 print(Chip) 
+Rocks = 'are we going to do here??'
+print(Chip + ' ' +  Rocks)
