@@ -1,5 +1,7 @@
 #Learning Python
-Chip = 'What'
-print(Chip) 
-Rocks = 'are we going to do here??'
-print(Chip + ' ' +  Rocks)
+Wut = 'what'
+Sentence = 'are we going to do here??'
+Name = 'Chip'
+print(Name + ' ' + Wut + ' ' +  Sentence)
+cash = 100 / 4
+print(cash)
