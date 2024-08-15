@@ -1,3 +1,3 @@
 #Learning Python
 Chip = 'What?'
-print $Chip
+print(Chip) 
