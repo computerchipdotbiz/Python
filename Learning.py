@@ -3,5 +3,8 @@ Wut = 'what'
 Sentence = 'are we going to do here??'
 Name = 'Chip'
 print(Name + ' ' + Wut + ' ' +  Sentence)
-cash = 100 / 4
-print(cash)
+nums = 100 / 4
+print(nums)
+t = (1,2,3)
+mylist = [1,2,3]
+print (t.count(0))
