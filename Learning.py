@@ -7,4 +7,6 @@ nums = 100 / 4
 print(nums)
 t = (1,2,3)
 mylist = [1,2,3]
-print (t.count(0))
+print (t.count(3))
+print (mylist.index(3))
+print(t)
