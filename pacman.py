@@ -17,6 +17,7 @@ pacman_x = 500
 pacman_y = 400
 pacman_radius = 15
 
+speed = .25
 # Set up game loop
 while True:
     screen.fill(BLACK)
@@ -28,13 +29,13 @@ while True:
 
     keys = pygame.key.get_pressed()
     if keys[pygame.K_LEFT]:
-        pacman_x -= 1
+        pacman_x -= speed
     if keys[pygame.K_RIGHT]:
-        pacman_x += 1
+        pacman_x += speed
     if keys[pygame.K_UP]:
-        pacman_y -= 1
+        pacman_y -= speed
     if keys[pygame.K_DOWN]:
-        pacman_y += 1
+        pacman_y += speed
 
     pygame.draw.circle(screen, YELLOW, (pacman_x, pacman_y), pacman_radius)
 
